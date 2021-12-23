@@ -21,7 +21,7 @@ public class SearchSelenideRepo {
         // check: в заголовке есть selenide/selenide
         $("h1").shouldHave(text("selenide / selenide"));
 
-//        sleep(5000);
+        sleep(5000);
     }
 
 }
